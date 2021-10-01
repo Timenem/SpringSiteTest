@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<link th:href="@{/styles/home.css}" rel="stylesheet" />
+<head>
+    <title>GangstaHome</title>
+</head>
+<body>
+<div class="navbar">
+    <ul id="navbar">
+        <li><a href="/home">Главная</a></li>
+        <li><a href="/news">Новости</a></li>
+        <li><a href="/contacts">Контакты</a></li>
+        <li style="float:right"><a class="active" href="/about">Про нас</a></li>
+    </ul>
+</div>
+<h1 align="center">Welcome to sport pit </h1>
+<div class="image-wrap image-flex">
+    <img th:src="@{/images/ganster.png}"/>
+</div>
+</body>
+
+<footer id = "footer">
+    <div class="container" align="center">
+        <div class="social-icon-container" align="center">
+            <ul id="social-icons" style="justify-content:center">
+                <li> <a target="_blank" href="https://facebook.com"><img th:src="@{/images/icons/facebook.png}"/> </a> </li>
+                <li> <a target="_blank" href="https://instagramm.com"><img th:src="@{/images/icons/instagramm.png}"/> </a> </li>
+                <li> <a target="_blank" href="https://picasa.com"><img th:src="@{/images/icons/picasa.png}"/> </a> </li>
+                <li> <a target="_blank" href="https://vk.com"><img th:src="@{/images/icons/vk.png}"/> </a> </li>
+                <li> <a target="_blank" href="https://youtube.com"><img th:src="@{/images/icons/youtube.png}"/> </a> </li>
+            </ul>
+
+        </div>
+    </div>
+</footer>
+</html>
